@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * 
  * @Title: HxxCommunityServerApplication.java
  * @Package: com.hxxCommunity
- * @Description: 主启动类
+ * @Description:  主启动类
  * @author: luolight
  * @date: 2019年3月26日 上午10:48:06
  * @version 0.1

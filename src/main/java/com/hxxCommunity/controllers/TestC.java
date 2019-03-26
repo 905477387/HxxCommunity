@@ -37,4 +37,9 @@ public class TestC {
 	public Object getSession(String name, HttpServletRequest request) {
 		return request.getSession().getAttribute(name);
 	}
+	
+	@RequestMapping("/tst1")
+	public String tests2() {
+		return "test2";
+	}
 }
