@@ -12,7 +12,7 @@
             <property name="suppressAllComments" value="false"/>
         </commentGenerator>
         <!--数据库链接URL，用户名、密码 -->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://211.149.163.42:3306/hxxapp" userId="root" password="724ta38g">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://211.149.163.42:3306/community" userId="root" password="724ta38g">
         </jdbcConnection>
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
@@ -49,6 +49,29 @@
     	<table tableName="xxd_user_addr" domainObjectName="XxdUserAddr" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
     	<table tableName="xxd_user_power" domainObjectName="XxdUserPower" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
     	 -->
-    	 <table tableName="xxd_goods_flash_bak" domainObjectName="XxdGoodsFlashBak" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-    </context>
+    	 
+    	 <table tableName="comm_good_class" domainObjectName="XxdCommGoodClass" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+    	 <table tableName="comm_good_property_spu" domainObjectName="XxdCommGoodPropertySpu" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+    	 <table tableName="comm_spu" domainObjectName="XxdCommSpu" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+    	 <table tableName="comm_spu_value" domainObjectName="XxdCommSpuValue" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+    	 <table tableName="comm_shop_service_spu" domainObjectName="XxdCommShopServiceSpu" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+    	 <table tableName="comm_color" domainObjectName="XxdCommColor" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+    	 <table tableName="comm_emnu_info" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   
+   		<!--
+   		<table tableName="comm_comments" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_good_photos" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_goods" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_goods_sku" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_group" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_group_area" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_photos" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_proxy_area" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_proxy_area_good" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_shop" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_shop_area" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_shop_business_hours" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+   		<table tableName="comm_sku_spu_value" domainObjectName="XxdCommEmnuInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+  		-->
+  	 </context>
 </generatorConfiguration>
